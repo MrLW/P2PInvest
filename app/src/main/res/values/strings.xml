@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P2P金融</string>
+    <string name="tab_home_title">首页</string>
+    <string name="tab_invest_title">投资</string>
+    <string name="tab_me_title">我</string>
+    <string name="tab_more_title">更多</string>
+</resources>
