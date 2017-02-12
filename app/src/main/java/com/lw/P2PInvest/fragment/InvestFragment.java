@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.lw.P2PInvest.R;
 
@@ -20,6 +21,8 @@ public class InvestFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_invest,container,false) ;
+        TextView tv_title = (TextView) rootView.findViewById(R.id.tv_title);
+        tv_title.setText("投资");
         return rootView;
     }
 }

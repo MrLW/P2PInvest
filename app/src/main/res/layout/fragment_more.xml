@@ -4,9 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <include layout="@layout/common_title" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="50sp"
-        android:text="更多" />
+        android:text="更多"
+        android:textSize="50sp" />
 </LinearLayout>
