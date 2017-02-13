@@ -6,12 +6,11 @@
 
 ##非对称加密
 
-
 ##单向加密
 
 #二、开源项目
 
-## BottomBarTab
+## BottomBar(底部栏)
 
 ###1、使用
 实例化BottomBar
@@ -49,6 +48,9 @@ bottombar_menu.xml
         android:title="@string/tab_more_title" />
 </menu>
 ```
+
+
+##2、banner(轮播图)
 
 
 #三、沉浸式状态栏
@@ -116,5 +118,17 @@ private void setTranslucentStatus(boolean on) {
     }
     win.setAttributes(winParams);
 }
-````
+```
 
+
+#基础复习
+
+1、Activity四种启动模式的应用场景
+
+2、android的四层架构
+
+3、自定义view
+
+4、事件的拦截：  父拦截子(ViewPager+ScrollView)、子拦截父(QQ消息中的每一个item和ListView
+
+5、三个事件方法的执行顺序

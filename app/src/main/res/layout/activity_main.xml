@@ -4,11 +4,10 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     android:clipToPadding="false"
+    android:fitsSystemWindows="true"
     android:orientation="vertical"
     tools:context="com.lw.P2PInvest.activity.MainActivity">
-
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_container"

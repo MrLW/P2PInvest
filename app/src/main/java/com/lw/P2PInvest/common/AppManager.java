@@ -34,7 +34,7 @@ public class AppManager {
 
     public void remove(Activity activity) {
         if (activity != null) {
-            for (int i = activityStack.size(); i >= 0; i--) {
+            for (int i = activityStack.size()-1; i >= 0; i--) {
                 if (activityStack.get(i).getClass().equals(activity.getClass())) {
                     activityStack.get(i).finish();
                     activityStack.remove(i);
